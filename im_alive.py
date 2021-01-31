@@ -28,7 +28,6 @@ except Exception:
 
 # open controlled chrome, with user's cookies
 try:
-    raise Exception
     user_data_dir = "/home/esh/.config/google-chrome/"
     options = ChromeOptions()
     options.add_argument(f"user-data-dir={user_data_dir}")
